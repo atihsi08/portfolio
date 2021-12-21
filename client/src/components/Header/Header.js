@@ -5,14 +5,14 @@ import './header.css';
 const links = [
     {
         href: '/',
-        name: 'HOME',
+        name: 'Home',
     },
     {
         href: '/technology',
         name: 'Technologies',
     },
     {
-        href: 'https://drive.google.com/file/d/1raQanzRcoW6YhZcj2TA06kxxCToz0lIQ/view?usp=sharing',
+        href: 'https://drive.google.com/file/d/17a3fFXNJMrLMwKA-7nJDKQjEYvPPa9hM/view?usp=sharing',
         name: 'Resume',
     },
     {
