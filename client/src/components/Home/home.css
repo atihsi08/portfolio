@@ -1,0 +1,31 @@
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  margin-top: 5vh;
+  width: 100vw;
+}
+
+.developerImage {
+  width: 600px;
+  height: 600px;
+}
+
+.imageBox {
+  flex: 1;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .homeContainer {
+    height: 100%;
+    margin-top: 30vh;
+  }
+  .imageBox{
+    display:none;
+  }
+}

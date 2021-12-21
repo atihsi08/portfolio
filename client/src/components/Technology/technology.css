@@ -1,0 +1,37 @@
+.technologyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 95vh;
+  width: 100vw;
+  margin-top:5vh;
+}
+
+.technologyIcons {
+  display: flex;
+  font-family: Playfair Display;
+  color: #f1faee;
+  width: 50vw;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .technologyContainer{
+    height: 100%;
+    margin-top:27vh;
+  }
+  .technologyIcons{
+    flex-direction: column;
+  }
+}
