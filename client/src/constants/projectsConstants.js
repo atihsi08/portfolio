@@ -11,7 +11,7 @@ export const projectsDetails = [
     },
     {
         name: 'Memories App',
-        href: 'https://memoriesappproject.netlify.app/',
+        href: 'https://memoriesapp0.herokuapp.com/',
         description: 'The Memories app is like a social media application where users can share their memories. Users can view all memories. Users can edit and delete their memories and can search for the memories either using keyword or tags. Users also get recommendations for similar memories. The state of the application is maintained using Redux and the data is stored in the store to made it accessible to all components.',
     },
     {
